@@ -12,7 +12,7 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="DontSaveSensitive" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{b2fbbbee-5d28-4bdb-a0de-e27f141ffff9}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">0001-BasicTests</SSIS:Property>
@@ -24,9 +24,7 @@
           <SSIS:Property SSIS:Name="CreationDate">2021-12-28T15:35:15.1261671-07:00</SSIS:Property>
           <SSIS:Property SSIS:Name="CreatorName">DSKTP-HOME-JEFF\jeffs</SSIS:Property>
           <SSIS:Property SSIS:Name="CreatorComputerName">DSKTP-HOME-JEFF</SSIS:Property>
-          <SSIS:Property SSIS:Name="Description">
-          </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5nybV/jBuU6l+ubokPrXOwAAAAACAAAAAAADZgAAwAAAABAAAAAwsWzm+JSmBslKNDR0aat8AAAAAASAAACgAAAAEAAAALxmr36xMQ8jWxP8KlUo8tSIAAAAxhjRbqEVeUMSWF7mnHTXEaXUUMdFv6c7i34ByZbbCaDy/J0HXehD/Bb7KgeqPtorWqaqxJWQhAsCHlzqTwS3q1gPLde3XTH6mkS/8ancg2EvkAPkYGYuL/qXpdjWmHBiN5Giv0Q5rg9unO0RJAWszXILS5dlelauyz/usweVMqXXHEiJmdDv+xQAAABY/N9L2MPqcSqbmRKM/NsVaHeH/w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="Description">Contains frozen tests to run for regressions. Do not break once stabilized and called regularly from RipSSIS.</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +40,10 @@
                 <SSIS:Property SSIS:Name="Name">0001-Test-DtaFlw-AdvWks2019-KeepIdent</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">14</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">16</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{DF7A3ADD-4765-4CD2-8C3D-36D8430B2C05}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7113D798-6F93-4A4A-85BD-82CDAF081DA3}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">Simplest test for Rippers\RipSSIS</SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">0</SSIS:Property>
@@ -374,6 +372,7 @@
         <LinkedAzureSSISIR />
         <LinkedAzureStorage />
         <RemoteExecutionFolder />
+        <RunInOptimizedMode>true</RunInOptimizedMode>
         <ParameterConfigurationValues>
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>
