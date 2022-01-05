@@ -6,6 +6,7 @@
   DTS:CreatorComputerName="DSKTP-HOME-JEFF"
   DTS:CreatorName="DSKTP-HOME-JEFF\jeffs"
   DTS:DelayValidation="True"
+  DTS:Description="Simplest test for Rippers\RipSSIS"
   DTS:DTSID="{8A95B886-137B-4EB5-94F1-70C267351671}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:ISOLevel="-1"
@@ -15,8 +16,8 @@
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
   DTS:TransactionOption="0"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{66BBA5C6-DB10-4C73-B6F2-408F40B8B383}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{DF7A3ADD-4765-4CD2-8C3D-36D8430B2C05}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -54,9 +55,11 @@
       DTS:Description="Data Flow Task"
       DTS:DTSID="{35AD424F-FF2D-4EC4-A762-450D5A5C834C}"
       DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:ISOLevel="-1"
       DTS:LocaleID="-1"
       DTS:ObjectName="Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:TransactionOption="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <pipeline
