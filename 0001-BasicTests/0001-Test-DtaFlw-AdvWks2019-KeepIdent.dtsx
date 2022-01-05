@@ -15,8 +15,8 @@
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
   DTS:TransactionOption="0"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{DDA49713-C013-4A39-81E4-B6A1E3FF8AF4}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{66BBA5C6-DB10-4C73-B6F2-408F40B8B383}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -48,14 +48,14 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid"
+      DTS:refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:DelayValidation="True"
       DTS:Description="Data Flow Task"
       DTS:DTSID="{35AD424F-FF2D-4EC4-A762-450D5A5C834C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid"
+      DTS:ObjectName="Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -63,7 +63,7 @@
           version="1">
           <components>
             <component
-              refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination"
+              refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -120,7 +120,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Connections[OleDbConnection]"
+                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[TargetConn]"
                   connectionManagerRefId="Package.ConnectionManagers[TargetConn]"
                   description="The OLE DB runtime connection used to access the database."
@@ -128,111 +128,111 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input]"
+                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[AddressID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[AddressID]"
                       cachedDataType="i4"
                       cachedName="AddressID"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressID]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressID]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressID]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressID]" />
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[AddressLine1]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[AddressLine1]"
                       cachedDataType="wstr"
                       cachedLength="60"
                       cachedName="AddressLine1"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressLine1]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine1]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressLine1]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine1]" />
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[AddressLine2]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[AddressLine2]"
                       cachedDataType="wstr"
                       cachedLength="60"
                       cachedName="AddressLine2"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressLine2]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine2]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressLine2]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine2]" />
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[City]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[City]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="City"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[City]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[City]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[City]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[City]" />
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[StateProvinceID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[StateProvinceID]"
                       cachedDataType="i4"
                       cachedName="StateProvinceID"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[StateProvinceID]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[StateProvinceID]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[StateProvinceID]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[StateProvinceID]" />
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[PostalCode]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[PostalCode]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="PostalCode"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[PostalCode]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[PostalCode]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[PostalCode]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[PostalCode]" />
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[SpatialLocation]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[SpatialLocation]"
                       cachedDataType="image"
                       cachedName="SpatialLocation"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[SpatialLocation]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[SpatialLocation]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[SpatialLocation]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[SpatialLocation]" />
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[rowguid]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[rowguid]"
                       cachedDataType="guid"
                       cachedName="rowguid"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[rowguid]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[rowguid]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[rowguid]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[rowguid]" />
                     <inputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[ModifiedDate]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].Columns[ModifiedDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="ModifiedDate"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[ModifiedDate]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[ModifiedDate]" />
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[ModifiedDate]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[ModifiedDate]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressID]"
                       dataType="i4"
                       name="AddressID" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressLine1]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressLine1]"
                       dataType="wstr"
                       length="60"
                       name="AddressLine1" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressLine2]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[AddressLine2]"
                       dataType="wstr"
                       length="60"
                       name="AddressLine2" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[City]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[City]"
                       dataType="wstr"
                       length="30"
                       name="City" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[StateProvinceID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[StateProvinceID]"
                       dataType="i4"
                       name="StateProvinceID" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[PostalCode]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[PostalCode]"
                       dataType="wstr"
                       length="15"
                       name="PostalCode" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[SpatialLocation]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[SpatialLocation]"
                       dataType="image"
                       name="SpatialLocation" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[rowguid]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[rowguid]"
                       dataType="guid"
                       name="rowguid" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[ModifiedDate]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input].ExternalColumns[ModifiedDate]"
                       dataType="dbTimeStamp"
                       name="ModifiedDate" />
                   </externalMetadataColumns>
@@ -240,22 +240,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -264,7 +264,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source"
+              refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
               description="OLE DB Source"
@@ -313,7 +313,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Connections[OleDbConnection]"
+                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[SourceConn]"
                   connectionManagerRefId="Package.ConnectionManagers[SourceConn]"
                   description="The OLE DB runtime connection used to access the database."
@@ -321,203 +321,203 @@
               </connections>
               <outputs>
                 <output
-                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output]"
+                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output]"
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressID]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressID]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressID]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressID]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressID]"
                       name="AddressID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine1]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine1]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressLine1]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressLine1]"
                       length="60"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine1]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine1]"
                       name="AddressLine1"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine2]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine2]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressLine2]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressLine2]"
                       length="60"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine2]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[AddressLine2]"
                       name="AddressLine2"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[City]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[City]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[City]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[City]"
                       length="30"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[City]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[City]"
                       name="City"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[StateProvinceID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[StateProvinceID]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[StateProvinceID]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[StateProvinceID]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[StateProvinceID]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[StateProvinceID]"
                       name="StateProvinceID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[PostalCode]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[PostalCode]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[PostalCode]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[PostalCode]"
                       length="15"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[PostalCode]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[PostalCode]"
                       name="PostalCode"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[SpatialLocation]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[SpatialLocation]"
                       dataType="image"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[SpatialLocation]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[SpatialLocation]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[SpatialLocation]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[SpatialLocation]"
                       name="SpatialLocation"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[rowguid]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[rowguid]"
                       dataType="guid"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[rowguid]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[rowguid]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[rowguid]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[rowguid]"
                       name="rowguid"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[ModifiedDate]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[ModifiedDate]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[ModifiedDate]"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[ModifiedDate]"
+                      externalMetadataColumnId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[ModifiedDate]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].Columns[ModifiedDate]"
                       name="ModifiedDate"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressID]"
                       dataType="i4"
                       name="AddressID" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressLine1]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressLine1]"
                       dataType="wstr"
                       length="60"
                       name="AddressLine1" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressLine2]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[AddressLine2]"
                       dataType="wstr"
                       length="60"
                       name="AddressLine2" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[City]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[City]"
                       dataType="wstr"
                       length="30"
                       name="City" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[StateProvinceID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[StateProvinceID]"
                       dataType="i4"
                       name="StateProvinceID" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[PostalCode]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[PostalCode]"
                       dataType="wstr"
                       length="15"
                       name="PostalCode" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[SpatialLocation]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[SpatialLocation]"
                       dataType="image"
                       name="SpatialLocation" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[rowguid]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[rowguid]"
                       dataType="guid"
                       name="rowguid" />
                     <externalMetadataColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[ModifiedDate]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output].ExternalColumns[ModifiedDate]"
                       dataType="dbTimeStamp"
                       name="ModifiedDate" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output]"
+                  refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output]"
                   isErrorOut="true"
                   name="OLE DB Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressID]"
                       dataType="i4"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressID]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressID]"
                       name="AddressID" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressLine1]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressLine1]"
                       dataType="wstr"
                       length="60"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressLine1]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressLine1]"
                       name="AddressLine1" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressLine2]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressLine2]"
                       dataType="wstr"
                       length="60"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressLine2]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[AddressLine2]"
                       name="AddressLine2" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[City]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[City]"
                       dataType="wstr"
                       length="30"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[City]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[City]"
                       name="City" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[StateProvinceID]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[StateProvinceID]"
                       dataType="i4"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[StateProvinceID]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[StateProvinceID]"
                       name="StateProvinceID" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[PostalCode]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[PostalCode]"
                       dataType="wstr"
                       length="15"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[PostalCode]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[PostalCode]"
                       name="PostalCode" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[SpatialLocation]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[SpatialLocation]"
                       dataType="image"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[SpatialLocation]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[SpatialLocation]"
                       name="SpatialLocation" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[rowguid]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[rowguid]"
                       dataType="guid"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[rowguid]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[rowguid]"
                       name="rowguid" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ModifiedDate]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ModifiedDate]"
                       dataType="dbTimeStamp"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ModifiedDate]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ModifiedDate]"
                       name="ModifiedDate" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -528,10 +528,10 @@
           </components>
           <paths>
             <path
-              refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid.Paths[OLE DB Source Output]"
-              endId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination.Inputs[OLE DB Destination Input]"
+              refId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type.Paths[OLE DB Source Output]"
+              endId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination.Inputs[OLE DB Destination Input]"
               name="OLE DB Source Output"
-              startId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source.Outputs[OLE DB Source Output]" />
+              startId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source.Outputs[OLE DB Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -550,27 +550,27 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="520,42.6666666666667"
-          Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid"
+          Size="549.333333333334,42.6666666666667"
+          Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
           TopLeft="455.000004246831,189.300002068877" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid">
+    design-time-name="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="194,42"
-          Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source"
+          Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source"
           TopLeft="662,212" />
         <NodeLayout
           Size="214.666666666667,42"
-          Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination"
+          Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination"
           TopLeft="652,367" />
         <EdgeLayout
-          Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid.Paths[OLE DB Source Output]"
+          Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type.Paths[OLE DB Source Output]"
           TopLeft="759.25,254">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -593,28 +593,28 @@
         </EdgeLayout>
         <AnnotationLayout
           Text="Pull Person.Address table, &#xA;which includes a geometry type."
-          ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid"
+          ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
           FontInfo="{assembly:Null}"
           Size="198.666666666667,56"
           Id="45f008c5-d257-400e-bc1e-7956ed5f1b85"
           TopLeft="942,207" />
         <AnnotationLayout
           Text="Push 1-to-1 to separate database on same &#xA;server and keep identity values."
-          ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid"
+          ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
           FontInfo="{assembly:Null}"
           Size="257.333333333334,56"
           Id="e0f4c3f5-9545-484e-910e-f324b9ce3ab7"
           TopLeft="929,362" />
         <AnnotationLayout
           Text="Keep it simple for repeatable regression test as Ripper changes."
-          ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid"
+          ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
           FontInfo="{assembly:Null}"
           Size="364,40"
           Id="787607ef-e698-494b-9203-74e504194558"
           TopLeft="363,89" />
         <AnnotationLayout
           Text="Note that the OLE DB connector fails&#xA;when moving a geometry type across databases."
-          ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid"
+          ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
           FontInfo="{assembly:Null}"
           Size="286,56"
           Id="566d3e49-ffd7-46f3-95df-5e6d9c48c1e0"
@@ -623,7 +623,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Destination">
+    design-time-name="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -636,7 +636,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including geometryid\Native Client 11 Source">
+    design-time-name="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type\Native Client 11 Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
