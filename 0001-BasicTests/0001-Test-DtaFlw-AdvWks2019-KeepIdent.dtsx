@@ -16,8 +16,8 @@
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
   DTS:TransactionOption="0"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{DF7A3ADD-4765-4CD2-8C3D-36D8430B2C05}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{75F1714A-D699-4089-ACFA-80E2BC41EE16}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -555,7 +555,7 @@
         <NodeLayout
           Size="549.333333333334,42.6666666666667"
           Id="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
-          TopLeft="455.000004246831,189.300002068877" />
+          TopLeft="455.625004237518,189.950002057254" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -616,12 +616,12 @@
           Id="787607ef-e698-494b-9203-74e504194558"
           TopLeft="363,89" />
         <AnnotationLayout
-          Text="Note that the OLE DB connector fails&#xA;when moving a geometry type across databases."
+          Text="Note that the OLE DB connector fails&#xA;when moving a geography type across databases"
           ParentId="Package\Trunc and Load AdventureWorks2019 Person Address to 2017 database including a geography type"
           FontInfo="{assembly:Null}"
-          Size="286,56"
+          Size="289.333333333334,56"
           Id="566d3e49-ffd7-46f3-95df-5e6d9c48c1e0"
-          TopLeft="435,303" />
+          TopLeft="435.624999990687,304.299999976754" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
